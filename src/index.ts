@@ -7,7 +7,7 @@
 import { getAsyncLifecycle, defineConfigSchema } from '@openmrs/esm-framework';
 import { configSchema } from './config-schema';
 
-const moduleName = '@openmrs/esm-template-app';
+export const moduleName = '@openmrs/esm-template-app';
 
 const options = {
   featureName: 'root-world',
@@ -38,3 +38,8 @@ export function startupApp() {
  * `/openmrs/spa/root`.
  */
 export const root = getAsyncLifecycle(() => import('./root.component'), options);
+
+export const patientChartReminders = getAsyncLifecycle(
+  () => import('./reminders/patient-chart/toaster-dashboard'),
+  options,
+);

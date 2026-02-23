@@ -1,0 +1,10 @@
+.toasterContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    pointer-events: none;
+    position: fixed;
+    z-index: 999999;
+    right: 12px;
+    bottom: 12px;
+}

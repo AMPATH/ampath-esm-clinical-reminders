@@ -3,6 +3,11 @@
   "backendDependencies": {
   },
   "extensions": [
+     {
+      "component": "patientChartReminders",
+      "name": "patient-chart-reminders",
+      "slot": "patient-info-slot"
+    }
   ],
   "pages": [
     {
