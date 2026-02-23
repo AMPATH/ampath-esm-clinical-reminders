@@ -1,0 +1,56 @@
+.danger{
+    background: rgb(189, 54, 47);
+    color: #FFF;
+}
+.success{
+    background-color: #a7f0ba;
+    color: #23743b;
+}
+.warning{
+    background: #FFD700;
+    color: #8a6d3b;
+}
+.info{
+    background-color: #d0e2ff;
+    color: #1855d3;
+}
+.toasterLayout{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    .headerSection{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        column-gap: 5px;
+        .headerTitle{
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+        }
+        .headerAction{
+            width: 10%;
+        }
+    }
+    .headerContent{
+        display: flex;
+        flex-direction: column;
+        row-gap: 3px;
+    }
+}
+.closeBtn{
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  color: #FFF;
+}
+.closeBtn:hover{
+    cursor: pointer;
+}
