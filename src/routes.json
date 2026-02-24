@@ -7,6 +7,11 @@
       "component": "patientChartReminders",
       "name": "patient-chart-reminders",
       "slot": "patient-info-slot"
+    },
+     {
+      "component": "patientBannerReminders",
+      "name": "patient-banner-reminders",
+      "slot": "top-of-all-patient-dashboards-slot"
     }
   ],
   "pages": [

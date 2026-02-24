@@ -10,7 +10,7 @@ const Toaster: React.FC<ToasterProps> = ({ title, content, type }) => {
   const [displayToaster, setDisplayToaster] = useState<boolean>(true);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
   useEffect(() => {
-    timeoutRef.current = setTimeout(() => hideToaster(), 15000);
+    timeoutRef.current = setTimeout(() => hideToaster(), 10000);
     return () => {
       if (timeoutRef.current) {
         clearTimeout(timeoutRef.current);

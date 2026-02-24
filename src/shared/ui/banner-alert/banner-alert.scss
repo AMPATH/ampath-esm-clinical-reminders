@@ -1,0 +1,47 @@
+.danger{
+    background:  #ffd7d9;
+    color: #a2191f;
+}
+.success{
+    background-color: #a7f0ba;
+    color: #23743b;
+}
+.warning{
+    background: #FFD700;
+    color: #8a6d3b;
+}
+.info{
+    background-color: #d0e2ff;
+    color: #1855d3;
+}
+.bannerAlert{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: .75rem 1.25rem;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: .25rem;
+    font-size: 12px;
+}
+.bannerContent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    .titleSection{
+        width: 20%;
+    }
+    .messageSection{
+        width: 79%;
+    }
+    .closeBtn{
+        width: 1%;
+    }
+}
+
+.closeBtn:hover{
+    cursor: pointer;
+}
